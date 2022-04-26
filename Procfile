@@ -1,1 +1,1 @@
-web: java target/*.war
+web: java target/auction-0.0.1-SNAPSHOT.war

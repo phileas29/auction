@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 
@@ -13,23 +12,13 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.PreparedStatement;
-import com.mysql.jdbc.Statement;
-
-import model.bo.Categorie;
 import model.bo.Enchere;
-import model.dal.ConnectionProvider;
 
 
 import model.bll.ArticleManager;
-import model.bll.BusinessException;
 import model.bll.CategorieManager;
 import model.bll.EnchereManager;
 import model.bo.ArticleVendu;
-import model.bo.Categorie;
 import model.bo.Utilisateur;
 
 

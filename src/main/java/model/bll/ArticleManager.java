@@ -52,7 +52,7 @@ public class ArticleManager {
 				}
 			}
 			if (erreur) {
-				throw new BusinessException("Les champs doivent tous être remplis");
+				throw new BusinessException("Les champs doivent tous etre remplis");
 			}
 		}
 
